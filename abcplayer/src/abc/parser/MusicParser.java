@@ -34,7 +34,7 @@ public class MusicParser {
 	private String sharpNotes = "";
 	private String flatNotes = "";
 	private double beatLen;
-	private Instrument DEFAULT_INSTRUMENT = Instrument.GUITAR_HARMONICS;
+	private Instrument DEFAULT_INSTRUMENT = Instrument.PIANO;
 	// Repeat
 	boolean firstRepeat = false, secondRepeat = false;
 	private List<Music> notesToRepeat = new ArrayList<>();
